@@ -1,0 +1,97 @@
+* {
+   font-family: "Sansita Swashed", system-ui 
+}
+
+html{
+    font-size: 10px;
+}
+
+body {
+    background-color: #12372A;
+    font-family: "Sansita Swashed", system-ui;
+    height: calc(100vh - 2rem);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding-left: 1.2rem;
+    align-items: flex-end;
+}
+
+.logo {
+    padding-left: 2rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+nav button {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FBFADA;
+    background-color: transparent;
+    border: none;
+    font-size: 2.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 5.8rem
+}
+
+#content {
+    position: relative;
+    height: calc(100% - 10rem);
+}
+
+.preview-image {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: calc(100% - 10rem);
+}
+
+.preview-image img {
+    height: 100%;
+}
+
+.home-description {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-description > div:first-child{
+    font-family: "Lexend Zetta", sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #ADBC9F;
+    text-transform: uppercase;
+    letter-spacing: -1rem;
+}
+
+.home-description > div:nth-child(2) {
+    font-size: 14.4rem;
+    font-weight: bold;
+    color: #FBFADA;
+    text-transform: capitalize;
+    line-height: 19rem;
+    margin-top: -4rem;
+}
+
+.home-description > div:nth-child(3) {
+     font-family: "Lexend Zetta", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ADBC9F;
+}
